@@ -4,6 +4,10 @@
 			<title>
 				Testing Game
 			</title>
+			<style>
+			canvas {
+				border:5px solid black;
+			}
 		</head>
 		<body>
 			<canvas id = "gameCanvas" width="200" height="200"></canvas>
