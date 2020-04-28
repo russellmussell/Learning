@@ -2,16 +2,18 @@
 	<html>
 		<head>
 			<title>
-				Learning Html
+				Testing Game
 			</title>
 		</head>
 		<body>
-			<h1>
-				This is my first heading
-			</h1>
-			<p1>
-				This paragraph is here to explain that I am in the process of learning HTML
-			</p1>
+			<canvas id = "gameCanvas" width = "200" height = "200"></canvas>
+			<script>
+				var canvas = document.getElementById("gameCanvas");
+				var circle = canvas.getContext("2d");
+				circle.beginPath();
+				circle.arc(10, 10, 3, 0, 2 * Math.PI);
+				circle.stroke();
+			</script>
 		</body>
 	</html>
 
