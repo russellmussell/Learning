@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>
+				Learning Html
+			</title>
+		</head>
+		<body>
+			<h1>
+				This is my first heading
+			</h1>
+			<p1>
+				This paragraph is here to explain that I am in the process of learning HTML
+			</p1>
+		</body>
+	</html>
+
