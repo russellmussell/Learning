@@ -19,6 +19,7 @@
 				circle.arc(10, 10, 3, 0, 2 * Math.PI);
 				circle.stroke();
 			</script>
+			<p title = "About W3Schools">W3Schools is a web developer's site.</p>
 		</body>
 	</html>
 
